@@ -1,3 +1,13 @@
+/*
+The question: Given a 2d array of integers where -1 represents other cars, 0 represents free space, 
+1 represents your car, and 2 represents exits, find the shortest way out. 
+
+The answer uses breadth first search: https://www.freecodecamp.org/news/exploring-the-applications-and-limits-of-breadth-first-search-to-the-shortest-paths-in-a-weighted-1e7b28b3307/
+
+This is one implementation; I did this quickly during the meetup so it has some flaws with error handling
+and some places it could be more efficient, but the basic idea is right.
+*/
+
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class ParkingLot {
